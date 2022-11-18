@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+#margin{
+    margin: 0px 0px 0px 210px;
+}
+input[type=text] {
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid #A9A9A9;
+}
+input[type=password] {
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid #A9A9A9;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+
+ 
+
+}
+input[type=text]:hover{
+border-bottom: 2px solid black;
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+    #margin{
+        margin-left: 25px;
+    }
+  
+  }
+   @media only screen and (max-width: 850px) {
+ 
+    #margin{
+        margin-left: 45px;
+    }
+    .btn btn-outline-danger btn-lg{
+        margin-left: 25px;
+    } 
+    
+  } 
+

@@ -1,0 +1,75 @@
+
+header{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    margin-top: 45px;
+    
+  
+
+   
+}
+
+.box-details{
+    margin-left: 15px;
+    float: left;
+    height: 180px;
+    width: 250px;
+    padding: 31px;
+    border-radius: 30px;
+    box-shadow: 1px 11px 11px 1px whitesmoke;
+
+}
+.box-details:hover{
+   
+    box-shadow: 1px 5px 12px 1px rgb(156, 236, 157);
+
+}
+.bi{
+    font-size: 45px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.about-us {
+    float: left;
+   width: 30%;
+    line-height: 30px;
+
+}
+.image{
+    margin-bottom: 250px;
+   
+    
+   
+   
+}
+
+button{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color:green ;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (max-width: 400px) {
+    .box{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+ 
+  }
+  

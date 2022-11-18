@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+}
+
+.icon-bar {
+width: 80px;
+background-color: grey ;
+height: 100%;
+}
+a {
+    display: block;
+    font-size: 45px;
+    text-align: center;
+    padding: 18px 15px;
+    
+
+}
+.active {
+    background-color: rgb(38, 224, 31);
+}
+
+
+a:hover {
+    display: block;
+    font-size: 45px;
+    text-align: center;
+    padding: 18px 15px;
+    background-color: rgb(36, 35, 35) ;
+
+}
+
+

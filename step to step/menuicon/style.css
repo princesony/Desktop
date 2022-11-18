@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:250px 250px 250px 250px
+}
+
+.bar1{
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    transition: 0.4s;
+}
+.bar2{
+    margin: 8px 0px;
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    transition: 0.4s;
+}
+.bar3{
+    
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.bar .bar1{
+    transform: translate(0, 11px) rotate(-45deg);
+    width: 75px;
+    height: 5px;
+    background-color: black;
+}
+.bar .bar2 {opacity: 0;}
+
+.bar .bar3{
+    transform: translate(0, -11px) rotate(45deg);
+    
+    width: 75px;
+    height: 5px;
+    background-color: black;
+}
